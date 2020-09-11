@@ -6,7 +6,7 @@
         android:width="120dp"/>
 
     <stroke android:width="2dp"
-        android:color="#af8f66"/>
+        android:color="@color/colorOrange"/>
 
     <corners android:radius="4dp"/>
 
