@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/learningLeadersFragment"
+    >
+
+
+    <fragment
+        android:id="@+id/learningLeadersFragment"
+        android:name="com.cjproductions.gadsproject1.Fragments.LearningLeadersFragment"
+        android:label="fragment_learning_leaders"
+        tools:layout="@layout/fragment_learning_leaders" />
+    <fragment
+        android:id="@+id/skillIQFragment"
+        android:name="com.cjproductions.gadsproject1.Fragments.SkillIQFragment"
+        android:label="fragment_skill_i_q"
+        tools:layout="@layout/fragment_skill_iq" >
+        <action
+            android:id="@+id/action_skillIQFragment_to_learningLeadersFragment"
+            app:destination="@id/learningLeadersFragment" />
+    </fragment>
+</navigation>

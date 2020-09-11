@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GADS Project 1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_error">Error</string>
+    <string name="text_success">Success</string>
+    <string name="text_ok">OK</string>
+    <string name="are_you_sure">Are you sure</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_info">Info</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="empty_learning_list">No Learning List Available</string>
+    <string name="empty_skilled_list">No Skill IQ List Available</string>
+    <string name="project_subsmission">Project Submission</string>
+    <string name="leader_board">LEADERBOARD</string>
+    <string name="learning_leaders_tab">Learning Leaders</string>
+    <string name="skill_iq_leaders_tab">Skill IQ Leaders</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="submission_un_successful">Submission not Successful</string>
+    <string name="submit">Submit</string>
+    <string name="question_mark">\"?\"</string>
+</resources>
