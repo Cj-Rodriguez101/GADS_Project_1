@@ -19,8 +19,6 @@ class SplashActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         splashImage = findViewById(R.id.splash_image)
-        val performAnimation = android.view.animation.AnimationUtils.loadAnimation(this, R.anim.splash_animation)
-        performAnimation?.start()
         handler = Handler()
         handler.postDelayed({
             val intent = Intent(this@SplashActivity, LeaderBoardActivity::class.java)
